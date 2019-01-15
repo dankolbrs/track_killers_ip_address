@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Killer IP Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>GUI in Electron to Track Killer</h1>
+    <input id="ipAddress" type="password" placeholder="Enter IP Address"><br>
+    <button id="trackIpBtn">Track IP</button>
+    <p id="ipAddressEntered">Awaiting tracking</p>
+    <div class="row">
+        <div id="tableDiv">
+            <table id="myTable"></table>
+        </div>
+        <div id="myMap" ></div>
+    </div>
+    <script>
+        require('./renderer.js');
+    </script>
+  </body>
+</html>

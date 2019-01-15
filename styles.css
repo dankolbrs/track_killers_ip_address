@@ -1,0 +1,16 @@
+body {
+    background-color: lightgray;
+}
+h1 {
+    color: darkred;
+}
+#ipAddressEntered {
+    color: green;
+    font-size: 200%;
+}
+.row {
+    display: flex;
+}
+.tableDiv {
+    flex: 50%;
+}
